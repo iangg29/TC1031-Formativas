@@ -8,7 +8,7 @@
 
 ### A01706892
 
-##### TC1031 - Programación de estrucutras de datos y algoitmos fundamentales. ⌨️
+##### TC1031 - Programación de estrucutras de datos y algoitmos fundamentales. ⌨️
 
 ## Correcciones en actividades 📝
 
@@ -43,5 +43,4 @@
 CPlusPlus (2020) vector. https://www.cplusplus.com/reference/vector/vector/
 
 ---
-
-Ian García 2021
+Ian García 2021.
