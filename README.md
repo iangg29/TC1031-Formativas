@@ -8,7 +8,7 @@
 
 ### A01706892
 
-##### TC1031 - Programación de estrucutras de datos y algoitmos fundamentales. ⌨️
+##### TC1031 - Programación de estrucutras de datos y algoritmos fundamentales. ⌨️
 
 ## Correcciones en actividades 📝
 
