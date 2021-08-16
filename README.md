@@ -40,7 +40,8 @@
 
 ## Referencias 📃
 
-CPlusPlus (2020) vector. https://www.cplusplus.com/reference/vector/vector/
+CPlusPlus (2020) C++. https://www.cplusplus.com
 
 ---
+
 Ian García 2021.
