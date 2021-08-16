@@ -1,12 +1,47 @@
-# TC1031_Estructuras_Formativas
+<a href="#">
+    <img src="https://javier.rodriguez.org.mx/itesm/2014/tecnologico-de-monterrey-black.png" alt="ITESM" title="ITESM" align="right" height="60" />
+</a>
 
-Repositorio de ejemplo
+# Estructuras formativas 🧱
 
-# Correcciones en actividades
- ### Act 1.1 Funciones Iterativas, Recursivas y su análisis de Complejidad/
-* Se agregó analisis de complejidad para función recursiva en suma renglon 37 de funciones.h
- 
-* Se agregaó función iterativa que antes no pasaba una de la pruebas, ya que se iniciaba el conteo del ciclo fuera de lugar. Ahora inicia en 0 y termina en n-1 y pasa las prubas del último main en linea 50 funciones.h
- 
- ### Act 3.2 - Árbol Heap: Implementando una fila priorizada/
-* El programo tenía errores de compilación, se corrigió el error de compilación (caracteres no válidos y faltaban funciones por declarar) y el programa ya es compatible con el último main en el repositorio de prueba.
+### Ian García González 👨🏻‍💻
+
+### A01706892
+
+##### TC1031 - Programación de estrucutras de datos y algoitmos fundamentales. ⌨️
+
+## Correcciones en actividades 📝
+
+### Act 1.1 Funciones Iterativas, Recursivas y su análisis de Complejidad.
+
+### Act 1.2 Algoritmos de Búsqueda y Ordenamiento.
+
+### Act 2.1 Implementación de una ADT de estructura de datos lineales.
+
+### Act 2.2 Implementar una ADT de una estructura de datos lineales. (Doblemente encadenada)
+
+### Act 3.1 Operaciones avanzadas en un BST.
+
+### Act 3.2 Árbol Heap: Implementando una fila priorizada
+
+### Act 3.3 Árbol Desplegado: Implementando un Splay Tree
+
+### Act 4.1 Grafos, sus representaciones y sus recorridos.
+
+### Act 5.1 Implementación individual de operaciones sobre conjuntos.
+
+## Construido con 🛠️
+
+- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
+
+## Autor ✒️
+
+- **Ian García** - [iangg29](https://github.com/iangg29)
+
+## Referencias 📃
+
+CPlusPlus (2020) vector. https://www.cplusplus.com/reference/vector/vector/
+
+---
+
+Ian García 2021
