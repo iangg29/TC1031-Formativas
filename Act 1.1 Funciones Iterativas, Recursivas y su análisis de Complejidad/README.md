@@ -1,6 +1,6 @@
 # Análisis de complejidad 📈
 
-### Suma Iterativa
+### Suma Iterativa
 
 El algoritmo de suma iterativa tiene que recorrer **_n_** pasos debido al ciclo _for_ que va de 1 hasta **_n_**, por lo cual su complejidad es **O(n)**.
 

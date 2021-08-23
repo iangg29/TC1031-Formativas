@@ -28,7 +28,7 @@ int Funciones::sumaIterativa(int x){
     return sum;
 }
 
-// O(n)
+// O(n)     
 int Funciones::sumaRecursiva(int x){
     if(x == 0) return 0;
     return x + sumaRecursiva(x - 1);
