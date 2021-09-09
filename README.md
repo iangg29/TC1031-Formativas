@@ -14,6 +14,8 @@
 
 ### Act 1.1 Funciones Iterativas, Recursivas y su análisis de Complejidad.
 
+* Se corrigió error #ifndef.
+
 ### Act 1.2 Algoritmos de Búsqueda y Ordenamiento.
 
 ### Act 2.1 Implementación de una ADT de estructura de datos lineales.
