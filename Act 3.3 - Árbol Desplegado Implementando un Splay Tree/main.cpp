@@ -110,7 +110,7 @@ int main(int argc, char* argv[]) {
   cout << "\n" <<"3.- esperada " << pre_ans << "\n programa " << my_splay.preorder() << "\n";
   cout <<	(!pre_ans.compare(my_splay.preorder()) ? "success\n" : "fail\n");
   cout << "\n" <<"3.- esperada " << 1 << " programa " << found << "\n";
-  cout << " 3 " <<	(found == 1 ? "success\n" : "fail\n");
+  cout <<	(found == 1 ? "success\n" : "fail\n");
 
   found = my_splay.find(17);
   in_ans =	"[7 10 13 15 16 17]";
@@ -120,7 +120,7 @@ int main(int argc, char* argv[]) {
   cout << "\n" <<"4.- esperada " << pre_ans << "\n programa " << my_splay.preorder() << "\n";
   cout <<	(!pre_ans.compare(my_splay.preorder()) ? "success\n" : "fail\n");
   cout << "\n" <<"4.- esperada " << 1 << " programa " << found << "\n";
-  cout << " 4 " <<	(found == 1 ? "success\n" : "fail\n");
+  cout <<	(found == 1 ? "success\n" : "fail\n");
 
   my_splay.remove(13);  //bottum up
   in_ans =	"[7 10 15 16 17]";
@@ -129,9 +129,6 @@ int main(int argc, char* argv[]) {
   cout <<	(!in_ans.compare(my_splay.inorder()) ? "success\n" : "fail\n");
   cout << "\n" <<"5.- esperada " << pre_ans << "\n programa " << my_splay.preorder() << "\n";
   cout <<	(!pre_ans.compare(my_splay.preorder()) ? "success\n" : "fail\n");
-  cout << "\n" <<"5.- esperada " << 1 << " programa " << found << "\n";
-  cout << " 5 " <<	(found == 1 ? "success\n" : "fail\n");
-
 
   my_splay.remove(16);  //bottum up
   in_ans =	"[7 10 15 17]";
@@ -140,7 +137,4 @@ int main(int argc, char* argv[]) {
   cout <<	(!in_ans.compare(my_splay.inorder()) ? "success\n" : "fail\n");
   cout << "\n" <<"6.- esperada " << pre_ans << "\n programa " << my_splay.preorder() << "\n";
   cout << (!pre_ans.compare(my_splay.preorder()) ? "success\n" : "fail\n");
-  cout << "\n" <<"6.- esperada " << 1 << " programa " << found << "\n";
-  cout << " 6 " <<	(found == 1 ? "success\n" : "fail\n");
-
 }
