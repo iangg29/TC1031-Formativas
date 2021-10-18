@@ -9,8 +9,7 @@ el peor de los casos.
 ### Pop
 
 El algoritmo para remover la raiz del árbol (***data[0]***), así como para ordenar nuevamente el árbol (***heapify***)
-tiene una complejidad de **O(log n)** para el peor de los casos. Ya que para remover el elemento su complejidad sería **
-O(1)**, y para ordenarlo **O(log n)**.
+tiene una complejidad de **O(log n)** para el peor de los casos. Ya que para remover el elemento su complejidad sería **O(1)**, y para ordenarlo **O(log n)**.
 
 ### Top
 
