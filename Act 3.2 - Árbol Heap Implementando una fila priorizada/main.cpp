@@ -4,6 +4,7 @@
  *  Created on: 10/08/2020
  *      Author: bvaldesa
  */
+
 #include <iostream>
 #include <string>
 #include "heap.h"
@@ -11,7 +12,7 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-    heap<int> heap(20);
+    Heap<int> heap(20);
     string ans;
     heap.push(8);
 

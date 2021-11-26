@@ -26,7 +26,7 @@ using namespace std;
  */
 
 template<class T>
-class heap {
+class Heap {
 private:
     T *data;
     int max;
@@ -43,7 +43,7 @@ private:
     void heapify(int);
 
 public:
-    explicit heap(int);
+    explicit Heap(int);
 
     void push(T);
 
@@ -64,7 +64,7 @@ public:
  * @param size Cantidad máxima de datos.
  */
 template<class T>
-heap<T>::heap(int size) {
+Heap<T>::Heap(int size) {
     max = size;
     data = new T[max];
     count = 0;
@@ -77,7 +77,7 @@ heap<T>::heap(int size) {
  * @return int 
  */
 template<class T>
-int heap<T>::parent(int position) const {
+int Heap<T>::parent(int position) const {
     return (position - 1) / 2;
 }
 
@@ -88,7 +88,7 @@ int heap<T>::parent(int position) const {
  * @return int 
  */
 template<class T>
-int heap<T>::left(int position) const {
+int Heap<T>::left(int position) const {
     return ((2 * position) + 1);
 }
 
@@ -99,7 +99,7 @@ int heap<T>::left(int position) const {
  * @return int 
  */
 template<class T>
-int heap<T>::right(int position) const {
+int Heap<T>::right(int position) const {
     return ((2 * position) + 2);
 }
 
@@ -110,7 +110,7 @@ int heap<T>::right(int position) const {
  * @param y Posición 2.
  */
 template<class T>
-void heap<T>::swap(int x, int y) {
+void Heap<T>::swap(int x, int y) {
     T aux = data[x];
     data[x] = data[y];
     data[y] = aux;
@@ -122,7 +122,7 @@ void heap<T>::swap(int x, int y) {
  * @param position Posición a acomodar.
  */
 template<class T>
-void heap<T>::heapify(int position) {
+void Heap<T>::heapify(int position) {
     int le = left(position), ri = right(position), min = position;
     if (le <= count && data[le] < data[min]) min = le;
     if (ri <= count && data[ri] < data[min]) min = ri;
@@ -138,7 +138,7 @@ void heap<T>::heapify(int position) {
  * @param value Valor del nuevo nodo.
  */
 template<class T>
-void heap<T>::push(T value) {
+void Heap<T>::push(T value) {
     int position = count;
     count++;
     while (position > 0 && value < data[parent(position)]) {
@@ -153,7 +153,7 @@ void heap<T>::push(T value) {
  * 
  */
 template<class T>
-void heap<T>::pop() {
+void Heap<T>::pop() {
     T aux = data[0];
     data[0] = data[--count];
     heapify(0);
@@ -165,7 +165,7 @@ void heap<T>::pop() {
  * @return T Valor del nodo.
  */
 template<class T>
-T heap<T>::top() const {
+T Heap<T>::top() const {
     return data[0];
 }
 
@@ -176,7 +176,7 @@ T heap<T>::top() const {
  * @return false Heap no está vacío.
  */
 template<class T>
-bool heap<T>::empty() const {
+bool Heap<T>::empty() const {
     return count == 0;
 }
 
@@ -186,7 +186,7 @@ bool heap<T>::empty() const {
  * @return int Cantidad de nodos en la fila.
  */
 template<class T>
-int heap<T>::size() const {
+int Heap<T>::size() const {
     return count;
 }
 
@@ -196,7 +196,7 @@ int heap<T>::size() const {
  * @return std::string 
  */
 template<class T>
-std::string heap<T>::toString() const {
+std::string Heap<T>::toString() const {
     std::stringstream aux;
     aux << "[";
     for (unsigned int i = 0; i < count; i++) {

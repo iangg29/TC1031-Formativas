@@ -16,15 +16,9 @@
 
 * Se corrigió error #ifndef.
 
-### Act 1.2 Algoritmos de Búsqueda y Ordenamiento.
-
-### Act 2.1 Implementación de una ADT de estructura de datos lineales.
-
-### Act 2.2 Implementar una ADT de una estructura de datos lineales. (Doblemente encadenada)
-
-### Act 3.1 Operaciones avanzadas en un BST.
-
 ### Act 3.2 Árbol Heap: Implementando una fila priorizada
+
+* Se corrigió error de compatibilidad.
 
 ### Act 3.3 Árbol Desplegado: Implementando un Splay Tree
 
