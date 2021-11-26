@@ -46,7 +46,7 @@ public:
 
     void loadGraphMat(const string &, int, int);
 
-    void loadGraphList(const string &, int a);
+    void loadGraphList(const string &, int, int);
 
 
     void addEdgeAdjMatrix(int, int);
@@ -122,7 +122,7 @@ void Graph::loadGraphMat(const string &file_name, int a, int b) {
  * @param file_name 
  * @param a 
  */
-void Graph::loadGraphList(const string &file_name, int a) {
+void Graph::loadGraphList(const string &file_name, int a, int b) {
     nodes = a;
     adjList = new vector<int>[nodes];
 

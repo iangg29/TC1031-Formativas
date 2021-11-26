@@ -20,8 +20,8 @@ int main(int argc, char *argv[]) {
     string g_ans, g_ans_2;
     string star_ans, star_ans_2;
 
-    g.loadGraphList("g.txt", 7);
-    star.loadGraphList("star.txt", 5);
+    g.loadGraphList("g.txt", 7, 7);
+    star.loadGraphList("star.txt", 5, 5);
 
     g.loadGraphMat("g.txt", 7, 7);
     star.loadGraphMat("star.txt", 5, 5);

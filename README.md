@@ -18,11 +18,11 @@
 
 ### Act 3.2 Árbol Heap: Implementando una fila priorizada
 
-* Se corrigió error de compatibilidad.
-
-### Act 3.3 Árbol Desplegado: Implementando un Splay Tree
+* Se corrigió error de compatibilidad con _main.cpp_.
 
 ### Act 4.1 Grafos, sus representaciones y sus recorridos.
+
+* Se corrigió error de compatibilidad con _main.cpp_.
 
 ### Act 5.1 Implementación individual de operaciones sobre conjuntos.
 
